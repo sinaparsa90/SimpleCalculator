@@ -1,0 +1,74 @@
+@import url('https://db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2');
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff2') format('woff2');
+    }
+
+.CalculatorBox-main{
+    margin: auto;
+    background-color: aqua;
+    width:20em;
+    border-radius: 5px;
+}
+
+.CalculatorBox-DisplayResult{
+    font-family: 'Digital Numbers Regular';
+    font-size: larger;
+    width: 100%;
+    height: 2em;
+    color: aliceblue;
+    margin: auto;
+    background-color: black;
+}
+.screen{
+    text-align: left;
+    margin: 0;
+}
+
+
+
+.CalculatorBox-Keies{
+    display: flex;
+    background-color: brown;
+}
+
+.CalculatorBox-numbers{
+    justify-content: center;
+    width: 60%;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 0;
+    grid-template-columns: auto auto auto;
+}
+
+.CalculatorBox-numbers button {
+    width:4em;
+    height:4em;
+}
+
+
+.CalculatorBox-operators{
+    justify-content: center;
+    height: 80%;
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+}
+
+.CalculatorBox-operators button {
+    width:4em;
+    height:4em;
+}
+
+
+.CalculatorBox-operators button{
+    margin-bottom: 0%;
+}
+
+#zero,#equals{
+    width:8em;
+}
+
