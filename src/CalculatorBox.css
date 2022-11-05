@@ -7,15 +7,23 @@
     }
 
 .CalculatorBox-main{
-    margin: auto;
-    background-color: aqua;
+    margin:auto;
+    margin-top: 50px;
+    background-image:linear-gradient(110deg,rgb(202, 194, 194),rgb(120, 120, 189) );
     width:20em;
     border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    margin:auto ;
+    padding: 10px;
+    color: rgb(6, 31, 65);
 }
 
 .CalculatorBox-DisplayResult{
     font-family: 'Digital Numbers Regular';
-    font-size: larger;
+    font-size: xx-large;
     width: 100%;
     height: 2em;
     color: aliceblue;
@@ -35,38 +43,47 @@
 }
 
 .CalculatorBox-numbers{
-    justify-content: center;
     width: 60%;
-    flex-wrap: wrap;
-    display: flex;
-    gap: 0;
-    grid-template-columns: auto auto auto;
+}
+
+button{
+    width:4em;
+    height:4em;
+    font-size: 100%;
+    font-weight: 700;
+    border: solid 1px gray;
+    border-radius: 3px;
 }
 
 .CalculatorBox-numbers button {
-    width:4em;
-    height:4em;
+    background-color: rgb(198, 195, 211);
+}
+
+.CalculatorBox-operators button { 
+    background-color: rgb(174, 169, 197); 
 }
 
 
 .CalculatorBox-operators{
-    justify-content: center;
-    height: 80%;
     width: 40%;
-    display: flex;
     flex-wrap: wrap;
-    gap: 0;
-}
-
-.CalculatorBox-operators button {
-    width:4em;
-    height:4em;
+    display: flex;
 }
 
 
-.CalculatorBox-operators button{
+
+
+
+button:hover{
+    background-color: rgb(245, 242, 55);
+    transition: 0.8s background-color;
+    transform: 2s scale(2x);
+}
+
+
+/* .CalculatorBox-operators button{
     margin-bottom: 0%;
-}
+} */
 
 #zero,#equals{
     width:8em;

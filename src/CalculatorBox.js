@@ -168,7 +168,7 @@ function CalculatorBox (props){
 
     return(
         <div className='CalculatorBox-main'>
-            <h1>Simple Calculator</h1>
+            <h1 className='title'>Simple Calculator</h1>
          <div className='CalculatorBox-DisplayResult'>
             <div className='screen' >{displayInput}</div>
             <div className='screen' id='display' >{displayOutput}</div>
