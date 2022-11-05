@@ -1,0 +1,91 @@
+@import url('https://db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2');
+@font-face {
+    font-family: 'Digital Numbers Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Digital Numbers Regular'), url('DigitalNumbers-Regular.woff2') format('woff2');
+    }
+
+.CalculatorBox-main{
+    margin:auto;
+    margin-top: 50px;
+    background-image:linear-gradient(110deg,rgb(202, 194, 194),rgb(120, 120, 189) );
+    width:20em;
+    border-radius: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.title{
+    margin:auto ;
+    padding: 10px;
+    color: rgb(6, 31, 65);
+}
+
+.CalculatorBox-DisplayResult{
+    font-family: 'Digital Numbers Regular';
+    font-size: xx-large;
+    width: 100%;
+    height: 2em;
+    color: aliceblue;
+    margin: auto;
+    background-color: black;
+}
+.screen{
+    text-align: left;
+    margin: 0;
+}
+
+
+
+.CalculatorBox-Keies{
+    display: flex;
+    background-color: brown;
+}
+
+.CalculatorBox-numbers{
+    width: 60%;
+}
+
+button{
+    width:4em;
+    height:4em;
+    font-size: 100%;
+    font-weight: 700;
+    border: solid 1px gray;
+    border-radius: 3px;
+}
+
+.CalculatorBox-numbers button {
+    background-color: rgb(198, 195, 211);
+}
+
+.CalculatorBox-operators button { 
+    background-color: rgb(174, 169, 197); 
+}
+
+
+.CalculatorBox-operators{
+    width: 40%;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+
+
+
+button:hover{
+    background-color: rgb(245, 242, 55);
+    transition: 0.8s background-color;
+    transform: 2s scale(2x);
+}
+
+
+/* .CalculatorBox-operators button{
+    margin-bottom: 0%;
+} */
+
+#zero,#equals{
+    width:8em;
+}
+
